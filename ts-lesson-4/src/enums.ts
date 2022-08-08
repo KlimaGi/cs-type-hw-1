@@ -13,6 +13,7 @@ console.log('enums');
   const englishLoadingStates = {
     [LoadingState.beforeLoad]: 'Before Load',
   };
+  console.log('englishLoadingStates', englishLoadingStates);
 
   const IsLoading = (state: LoadingState) => state === LoadingState.loading;
 
